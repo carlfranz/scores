@@ -7,6 +7,17 @@ Supports:
 * home and away support
 * differences am and pm games
 
+Sample:
+```
+Stats for season 4
+Player        G    V    N    S   GF   GS  +/- P.ti 
+----------------------------------------------------
+Luca         15    8    5    2   40   27   13   29 
+Mohsen       15    8    4    3   34   27    7   28 
+Riccardo     15    4    5    6   32   36   -4   17 
+Carlo        15    2    2   11   18   34  -16    8
+```
+
 ## Configuration
 Create a sqlite database and run this create query:
 
