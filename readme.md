@@ -19,7 +19,7 @@ Carlo        15    2    2   11   18   34  -16    8
 ```
 
 ## Configuration
-Create a sqlite database and run this create query:
+Create a sqlite database named `results.db` and run this create query.
 
 ```
 CREATE TABLE scores ( 
