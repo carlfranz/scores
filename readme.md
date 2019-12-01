@@ -21,7 +21,7 @@ Carlo        15    2    2   11   18   34  -16    8
 ## Configuration
 Create a sqlite database named `results.db` and run this create query.
 
-```
+```sql
 CREATE TABLE scores ( 
 	id INTEGER PRIMARY KEY ASC, 
 	home TEXT, 
@@ -36,7 +36,7 @@ CREATE TABLE scores (
 
 Map player to character shortcut `insert.pl` file.
 
-```
+```perl
 my %replaces = (
   q{R} => "Riccardo",
   q{M} => "Mohsen",
